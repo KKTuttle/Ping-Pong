@@ -24,8 +24,8 @@ _None_
 ## Support and contact details
 
 _Contact by email: katka.karolcikova@gmail.com_
-https://github.com/KKTuttle/Ping-Pong
-http://kktuttle.github.io/Ping-Pong/
+* https://github.com/KKTuttle/Ping-Pong
+* http://kktuttle.github.io/Ping-Pong/
 
 ## Technologies Used
 
