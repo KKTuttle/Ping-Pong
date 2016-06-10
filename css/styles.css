@@ -1,0 +1,36 @@
+body {
+  background:url("../img/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: monospace;
+}
+.content {
+  width: 95%;
+  margin:auto;
+}
+.hore {
+  /*border:red solid 2px;*/
+}
+#logo {
+  border:black solid 2px;
+  background-color: black;
+  display: block;
+  margin: auto;
+  min-width: inherit;
+}
+#logo img {
+  display: block;
+  margin: auto;
+  width:450px;
+  height: 200px;
+}
+img {
+  width: auto;
+}
+.instruction {
+}
+.nadpis {
+  text-align: center;
+}
+.list{
+  color:white;
+}

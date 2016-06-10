@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
-    <script src ="js/jquery-1.12.4.js" type="text/javascript"></script>
-    <script src ="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src ="js/scripts.js" type="text/javascript"></script>
-    <title>Ping-Pong</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 title">
-          <h2>Let's play Ping pong</h2>
-        </div>
-        <div class="col-sm-4 logo">
-          <img src="img/pingpong.gif" alt="Picture of pingpong" />
-        </div>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+  <script src ="js/jquery-1.12.4.js" type="text/javascript"></script>
+  <script src ="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src ="js/scripts.js" type="text/javascript"></script>
+  <title>Ping-Pong</title>
+</head>
+<body>
+  <div class="content">
+    <div class="title">
+      <h1 class="nadpis">Let's play Ping Pong</h2>
+    </div>
+    <div class="row hore">
+      <div class="col-sm-6 instruction">
+        <h2 class="nadpis">RULES:</h2>
+        <ul>
+          <li>Numbers divisible by 3 are replaced with "ping"</li>
+          <li>Numbers divisible by 5 are replaced with "pong"</li>
+          <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+        </ul>
       </div>
-      <div class="row">
-          <div class="col-sm-6 form">
-            <form id="pingPongForm">
-              <label for="numberInput">Enter a number</label>
-              <input id="numberInput" type="number" name="numberInput">
-              <button type="submit" name="button">Ping-Pong</button>
-            </form>
-          </div>
-          <div id="vysledok">
-            <h2>Check out your result below</h2>
-            <ul id="pingPongResult" class="list">
-            </ul>
-          </div>
+      <div class="col-sm-6" id="logo">
+        <img src="img/pingpong.gif" alt="Picture of pingpong">
       </div>
     </div>
-  </body>
+    <div class="row">
+      <div class="col-sm-6 form">
+        <p>Are you ready to play?</p>
+        <form id="pingPongForm">
+          <label for="numberInput">Enter a number</label>
+          <input id="numberInput" type="number" name="numberInput">
+          <button type="submit" name="button">Ping-Pong</button>
+        </form>
+      </div>
+      <div class ="col-sm-6" id="vysledok">
+        <h2>Check out your result below</h2>
+        <ul id="pingPongResult" class="list">
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
 </html>

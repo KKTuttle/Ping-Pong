@@ -2,7 +2,7 @@
   function tableTenis(test) {
     for(var i=1; i<=test; i++) {
       if(i % 15 == 0) {
-        result = ("PingPong");
+        result = ("Ping Pong!");
         $("#pingPongResult").append("<li>" + result+ "</li>");
       } else if (i % 3 == 0) {
         result = ("Ping");
