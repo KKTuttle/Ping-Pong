@@ -1,4 +1,3 @@
-$(function() {
   var result="";
   function tableTenis(test) {
     for(var i=1; i<=test; i++) {
@@ -16,9 +15,10 @@ $(function() {
       }
     }
   };
+  $(function() {
   $("form#pingPongForm").submit(function(event) {
-    debugger;
     var numberInput = parseInt($("input#numberInput").val());
+    $("#pingPongResult li").remove();
     event.preventDefault();
     tableTenis(numberInput);
   });
