@@ -7,9 +7,6 @@ body {
   width: 95%;
   margin:auto;
 }
-.hore {
-  /*border:red solid 2px;*/
-}
 #logo {
   border:black solid 2px;
   background-color: black;
@@ -26,11 +23,10 @@ body {
 img {
   width: auto;
 }
-.instruction {
-}
 .nadpis {
   text-align: center;
 }
 .list{
   color:white;
+  font-size: 20px;
 }
